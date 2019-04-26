@@ -1,5 +1,8 @@
-function reverse(str) {
-  return str;
+function reverseStr(str) {
+  let char = '';
+  for (let i = 1; i <= str.length; i += 1) {
+    char += str[str.length - i];
+  } return char;
 }
 
-reverse('hello');
+console.log(reverseStr('1,2,3,'));

@@ -1,5 +1,10 @@
 function printFactor(n) {
-  return n;
+  let char = '';
+  for (let i = 1; i <= n; i += 1) {
+    if (n % i === 0) {
+      char += i;
+    }
+  } return (char);
 }
 
-printFactor(10);
+console.log(printFactor(7));
