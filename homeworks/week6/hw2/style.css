@@ -1,0 +1,57 @@
+.wrap {
+	width:960px;
+}
+
+.aside {
+	width: 15%;
+	float:left;
+	padding-top:120px;
+	padding-left:40px;
+}
+h1 {
+	font-weight:normal;
+}
+
+.clap {
+	width:62px;
+	height:62px;
+	border:grey solid 0.1px;
+	border-radius: 50%;
+	position:fixed;
+}
+
+.clap:hover {
+    border:black solid 0.1px;
+    cursor:pointer;
+}
+
+.claphand{
+	padding-left:20px;
+}
+
+span {
+	padding-left:20px;
+	display: inline-block;
+	padding-top:5px;
+}
+
+.main {
+	width: 80%;
+	float:left;
+}
+
+@media screen and (max-width: 1120px){
+	.wrap {
+		width:100%;
+	}	
+	.main {
+		padding-left:10%;
+		width:80%;
+	}
+	.aside {
+		display:none;
+	}
+}
+
+
+
