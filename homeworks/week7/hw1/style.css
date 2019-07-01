@@ -1,0 +1,30 @@
+.wrap{
+	height:700px;
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.plsclicktext{
+	font-size:32px;
+
+}
+
+.turn{
+    background:orange;
+}
+
+button{
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #e5841d;
+    color:#ffffff;
+    text-align: center;
+    display:block;
+    margin: 20px auto;
+}
